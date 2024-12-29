@@ -18,3 +18,40 @@ body {
     color: #111;
     font-size: 1rem;
 }
+
+p,
+input,
+label {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.main-container {
+    display: flex;
+}
+
+.images {
+    position: relative;
+    flex: 0 0 35%;
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.odin-logo,
+.photo-credits {
+    position: absolute;
+    color: white;
+}
+
+.odin-logo {
+    font-family: "Norse", sans-serif;
+    font-size: 6rem;
+    background-color: black;
+    width: 100%;
+    opacity: .6;
+    text-align: center;
+    top: 300px;
+}
