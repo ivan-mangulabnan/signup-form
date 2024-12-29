@@ -7,6 +7,53 @@
     <title>Simple Sign-up Form</title>
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="images">
+            <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="A picture of green leaves wetted by rain">
+            <p class="odin-logo">ODIN</p>
+            <p class="photo-credits">Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></p>
+        </div>
+        <div class="content">
+            <div class="top-paragraph">
+                <p>This is not real online service! You know you need something<br>like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="form">
+                <form>
+                    <p>Let's do this!</p>
+                    <div class="fname">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="first-name">
+                    </div>
+                    <div class="lname">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="last-name">
+                    </div>
+                    <div class="email">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="phone-num">
+                        <label for="phone-num">PHONE NUMBER</label>
+                        <input type="text" id="phone-num" name="phone-number" inputmode="numeric">
+                    </div>
+                    <div class="pwd">
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="password" required>
+                    </div>
+                    <div class="confirm-pwd">
+                        <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-pwd" name="confirm-password" required>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit">Create Account</button>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom-paragraph">
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
