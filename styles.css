@@ -32,7 +32,7 @@ label {
 
 .images {
     position: relative;
-    flex: 0 0 35%;
+    flex: 0 0 30%;
     background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
     background-color: black;
     background-repeat: no-repeat;
@@ -48,10 +48,29 @@ label {
 
 .odin-logo {
     font-family: "Norse", sans-serif;
-    font-size: 6rem;
-    background-color: black;
+    background-color: #00000080;
     width: 100%;
-    opacity: .6;
+    top: 21.5%;
+    height: 15%;
     text-align: center;
-    top: 300px;
+}
+
+.odin {
+    font-size: 5.8rem;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.odin::before {
+    content: "";
+    background-image: url("./images/odin-lined.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 78%;
+    top: -17%;
 }
