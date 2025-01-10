@@ -74,3 +74,15 @@ label {
     right: 78%;
     top: -17%;
 }
+
+.photo-credits {
+    font-size: .9rem;
+    position: absolute;
+    bottom: 1%;
+    left: 33%;
+    color: #fffffffd;
+}
+
+a {
+    color: #ffffffed;
+}
