@@ -197,3 +197,7 @@ input:focus {
     outline: 1px solid blue;
     box-shadow: 3px 5px 10px -3px #666;
 }
+
+input:invalid {
+    outline: 1px solid red;
+}
