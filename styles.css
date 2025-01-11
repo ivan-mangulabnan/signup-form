@@ -105,7 +105,8 @@ a {
     width: 100%;
     border: 1px solid #eee;
     box-shadow: 0 15px 10px -10px #bbb;
-    padding-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 4%;
 }
 
 .top-paragraph,
@@ -114,10 +115,13 @@ a {
     padding-left: 3%;
 }
 
-.top-paragraph,
-.bottom-paragraph {
+.top-paragraph {
     padding-top: 7%;
     padding-bottom: 4%;
+}
+
+.bottom-paragraph {
+    padding-top: 3%;
 }
 
 .top-paragraph > p,
@@ -128,7 +132,8 @@ a {
     color: #333;
 }
 
-.top-paragraph > p:last-child {
+.top-paragraph > p:last-child,
+.bottom-paragraph > p {
     margin-top: 3%;
 }
 
@@ -161,4 +166,34 @@ input {
     padding-left: 10px;
     border: 1px solid #E5E7EB;
     border-radius: 4px;
+}
+
+button {
+    font-size: 1.1rem;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    color: #f9fafb;
+    background-color: #596D48;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 4px 10px -5px #888;
+    cursor: pointer;
+}
+
+.bottom-paragraph > p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.bottom-paragraph a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 3px 5px 10px -3px #666;
 }
