@@ -19,7 +19,7 @@
             </div>
             <div class="form">
                 <p class="letsdothis">Let's do this!</p>
-                <form>
+                <form id="main-form">
                     <div class="fname">
                         <label for="fname">FIRST NAME</label>
                         <input type="text" id="fname" name="first-name">
@@ -44,12 +44,12 @@
                         <label for="confirm-pwd">CONFIRM PASSWORD</label>
                         <input type="password" id="confirm-pwd" name="confirm-password" required>
                     </div>
-                    <div class="submit-button">
-                        <button type="submit">Create Account</button>
-                    </div>
                 </form>
             </div>
             <div class="bottom-paragraph">
+                <div class="submit-button">
+                    <button type="submit" form="main-form">Create Account</button>
+                </div>
                 <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
